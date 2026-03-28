@@ -1,0 +1,60 @@
+{"id":"p001","prompt":"请用中文概括 Transformer 架构的核心组成，并说明自注意力的作用。"}
+{"id":"p002","prompt":"写一段 Python 代码，使用快速排序对整数数组排序，并简单解释时间复杂度。"}
+{"id":"p003","prompt":"请解释 vLLM 中 continuous batching 为什么会提升吞吐。"}
+{"id":"p004","prompt":"给出一个 Kubernetes Deployment 的 YAML 示例，用来部署单副本推理服务。"}
+{"id":"p005","prompt":"请比较 FP16、BF16 和 INT8 在大模型推理中的典型取舍。"}
+{"id":"p006","prompt":"写一个 Linux 命令示例，统计当前目录下各类文件数量。"}
+{"id":"p007","prompt":"解释一下什么是 KV Cache，以及它为什么能提升大模型解码效率。"}
+{"id":"p008","prompt":"请写一个 Python 函数，判断一个字符串是否为回文，并给出 3 个测试用例。"}
+{"id":"p009","prompt":"用简洁语言说明 HTTP 和 HTTPS 的区别。"}
+{"id":"p010","prompt":"请给出一个 Dockerfile，用于构建基于 Python 3.12 的 FastAPI 服务镜像。"}
+{"id":"p011","prompt":"简要说明为什么更高并发通常会提升整体吞吐，但也可能拉高尾延迟。"}
+{"id":"p012","prompt":"写一个 Bash 命令，查找当前目录下最近 24 小时修改过的 .log 文件。"}
+{"id":"p013","prompt":"请说明大模型推理中的 prefill 和 decode 分别是什么阶段。"}
+{"id":"p014","prompt":"写一段 Python 代码，读取 JSONL 文件并统计总行数。"}
+{"id":"p015","prompt":"给出一个 Redis 的典型使用场景，并说明其优点。"}
+{"id":"p016","prompt":"请解释一下什么是 P50、P90、P95 延迟，以及为什么不能只看平均值。"}
+{"id":"p017","prompt":"写一段 SQL，统计 orders 表中每个 user_id 的订单数量。"}
+{"id":"p018","prompt":"请用中文说明 GPU 利用率高但请求延迟仍然高的几种常见原因。"}
+{"id":"p019","prompt":"写一个 Python 生成器示例，每次返回斐波那契数列的下一个值。"}
+{"id":"p020","prompt":"简述消息队列在系统解耦中的作用，并举一个真实场景。"}
+{"id":"p021","prompt":"请说明为什么长 prompt 往往会拉高 TTFT。"}
+{"id":"p022","prompt":"给出一个 systemd service 文件示例，用于启动 Python 应用。"}
+{"id":"p023","prompt":"写一个 JavaScript 函数，对数组进行去重并保持原有顺序。"}
+{"id":"p024","prompt":"请列出 5 条提升线上推理服务稳定性的实践建议。"}
+{"id":"p025","prompt":"解释一下什么是幂等性，并举一个 API 设计中的例子。"}
+{"id":"p026","prompt":"请写一个 Python 代码片段，使用 requests 调用 HTTP POST 接口并打印状态码。"}
+{"id":"p027","prompt":"给出一个 Nginx 反向代理配置示例，将 /api 转发到 127.0.0.1:8000。"}
+{"id":"p028","prompt":"请比较线程、进程、协程三者的典型适用场景。"}
+{"id":"p029","prompt":"用通俗语言解释一下什么是 Token，以及它与字符数为什么不同。"}
+{"id":"p030","prompt":"写一个 Python dataclass 示例，表示用户的 id、name、email 字段。"}
+{"id":"p031","prompt":"请给出一段日志分析思路，用于排查接口偶发 500 错误。"}
+{"id":"p032","prompt":"说明一下 Prometheus、Grafana、Alertmanager 各自主要负责什么。"}
+{"id":"p033","prompt":"写一个 shell 命令，实时查看日志并只过滤包含 ERROR 的行。"}
+{"id":"p034","prompt":"请解释什么是流式输出，以及它为什么适合聊天式推理接口。"}
+{"id":"p035","prompt":"请写一段 Python 代码，把列表中的偶数筛选出来并平方。"}
+{"id":"p036","prompt":"比较一下 REST API 和 gRPC 的常见优缺点。"}
+{"id":"p037","prompt":"请给出一个 JSON 示例，表示商品 id、标题、价格、库存。"}
+{"id":"p038","prompt":"说明模型服务中为什么要记录请求级日志、聚合指标和错误堆栈。"}
+{"id":"p039","prompt":"写一个简单的 C++ 函数，返回两个整数中的较大值。"}
+{"id":"p040","prompt":"请总结一下在 8GB 显存 GPU 上部署小模型时需要关注的 5 个参数。"}
+{"id":"p041","prompt":"写一个 Python 类，实现一个最简单的计数器，支持 increment 和 reset。"}
+{"id":"p042","prompt":"解释一下为什么请求成功率是性能压测中必须优先看的指标。"}
+{"id":"p043","prompt":"请给出一个 cron 表达式示例，表示每天凌晨 2 点执行任务。"}
+{"id":"p044","prompt":"请用中文说明缓存命中率过低会带来哪些问题。"}
+{"id":"p045","prompt":"写一条 Linux 命令，查看某个端口是否被占用。"}
+{"id":"p046","prompt":"请比较同步 IO 和异步 IO 在高并发服务中的典型差异。"}
+{"id":"p047","prompt":"写一个 Python 函数，把秒数转换成 时:分:秒 格式字符串。"}
+{"id":"p048","prompt":"解释为什么 tail latency 对在线服务体验很重要。"}
+{"id":"p049","prompt":"请给出一个最小可用的 FastAPI 路由示例，返回 hello world。"}
+{"id":"p050","prompt":"说明一下为什么压测时需要把 prompt 长度、输出长度、并发度分开控制。"}
+{"id":"p051","prompt":"写一个 Markdown 表格，对比 CPU 推理和 GPU 推理的常见特点。"}
+{"id":"p052","prompt":"请用 5 个要点总结线上模型服务常见故障类型。"}
+{"id":"p053","prompt":"写一个 Python 代码片段，统计文本中每个单词出现的次数。"}
+{"id":"p054","prompt":"解释一下什么是 backpressure，以及它在流式系统中的意义。"}
+{"id":"p055","prompt":"给出一个 YAML 列表示例，包含 3 个服务名称和端口号。"}
+{"id":"p056","prompt":"请说明在压测结果中，req/s 和 tokens/s 为什么都需要看。"}
+{"id":"p057","prompt":"写一个 Go 语言函数，判断整数是否为偶数。"}
+{"id":"p058","prompt":"请给出一个思路，如何判断性能瓶颈在 CPU、GPU 还是网络。"}
+{"id":"p059","prompt":"写一段 Python 代码，使用 pathlib 列出目录下所有 .json 文件。"}
+{"id":"p060","prompt":"请用简短中文说明为什么 benchmark 数据集不能只有极少数 prompt。"}

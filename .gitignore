@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual env
+.venv/
+venv/
+
+# Benchmark outputs
+results/logs/
+results/raw/
+results/tables/
+results/charts/
+results/reports/
+
+# Generated prompts
+prompts/generated/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
